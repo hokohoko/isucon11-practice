@@ -17,7 +17,6 @@ install-tools:
         sudo install alp /usr/local/bin/alp
         rm alp_linux_amd64.tar.gz
 
-
 .PHONY: git-setup
 git-setup:
         git config --global user.email "tadak.0v0@gmail.com"
